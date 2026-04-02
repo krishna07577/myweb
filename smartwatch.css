@@ -1,0 +1,54 @@
+body {
+    background-color:dimgrey;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 40px;
+    color: darkblue;
+}
+
+.tagline {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 40px;
+    color: darkred;
+}
+
+.watch-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.watch {
+    background-color: white;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.watch img {
+    width: 100%;
+    height: auto;
+}
+
+.watch h3 {
+    font-size: 16px;
+}
+
+.watch p {
+    font-weight: bold;
+    color: green;
+}
+
+.keywords {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #e0ffff;
+}
